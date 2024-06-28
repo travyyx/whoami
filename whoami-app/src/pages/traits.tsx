@@ -44,7 +44,7 @@ function TraitsPage() {
     }, [])
 
     return (
-        <main className="h-screen w-full flex flex-col justify-center bg-black items-center text-white">
+        <main className="h-screen w-screen flex flex-col justify-center bg-black items-center text-white">
             {person && person.name}
         </main>
     )
